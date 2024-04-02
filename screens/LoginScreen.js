@@ -20,8 +20,8 @@ function LoginScreen() {
         "Authentication failed",
         "Could not login. Please make sure you entered the right information"
       );
+      setIsAuthenticating(false);
     }
-    setIsAuthenticating(false);
   }
 
   if (isAuthenticating) {
